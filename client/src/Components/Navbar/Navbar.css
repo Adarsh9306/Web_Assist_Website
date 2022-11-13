@@ -1,0 +1,28 @@
+.navbar {
+    width: 100%;
+    position: fixed;
+    display: flex;
+    background-color: transparent;
+    z-index: 100;
+    margin: 0;
+    padding: 3% 5%;
+  }
+  
+  img {
+    width: 5vw;
+    height: 76.18px;
+  }
+  
+  @media screen and (max-width: 620px) {
+    .navbar {
+      padding: 13% 0 !important;
+      justify-content: center !important;
+      align-items: center !important;
+    }
+  
+    img {
+      width: 100px;
+      height: 36.18px;
+    }
+  }
+  

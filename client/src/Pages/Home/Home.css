@@ -1,0 +1,146 @@
+h1{
+    color: #fff;
+}
+
+.cards {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    width: 50%;
+  }
+  
+  .card {
+    color: white;
+    margin: 20px;
+    background-color: blue;
+    border-radius: 25px;
+    width: 600px;
+    object-fit: contain;
+  }
+  .timeline {
+    position: relative;
+    height: 25vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    background-color: #1f1f1f;
+    background-repeat: no-repeat;
+    opacity: 0.9;
+  }
+  .timeline_btn {
+    margin-top: 65px !important; 
+    width: 30vw;
+    transform: translateY(-20px);
+  }
+  .chart {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 60%;
+    height: 16.5vh;
+    margin-bottom: 10px;
+    margin-left: 10px;
+  }
+  .userManual{
+    position: relative;
+    display: flex;
+    justify-content: flex-start;
+    width: 600px;
+    height: 25vh;
+    background: linear-gradient(
+      253.1deg,
+      rgba(255, 122, 122, 0.56) 14.23%,
+      #2a0fd3 101.22%
+    );
+  }
+  .profile {
+    position: relative;
+    display: flex;
+    justify-content: flex-start;
+    width: 600px;
+    height: 25vh;
+    background: linear-gradient(
+      253.1deg,
+      rgba(255, 122, 122, 0.56) 14.23%,
+      #2a0fd3 101.22%
+    );
+  }
+  .btn {
+    cursor:pointer;
+    margin-top: 25px;
+    background-color: #261b4c;
+    height: 40px;
+    border-radius: 10px;
+    padding: 5px 20px;
+    color: white;
+    border: none;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #261b4c;
+    font-family: GilroySemiBold;
+    font-size: 16px;
+    text-align: center; 
+    width: 14vw;
+  }
+  .btn:hover {
+    background-color: #301d74;
+  }
+  .heading {
+    font-family: GilroySemiBold;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 29px;
+    margin-bottom: 10px;
+  }
+  .para {
+    font-size: 25px;
+    font-family: GilroyMedium;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 22px;
+    letter-spacing: 0.25px;
+  }
+  .sub_para {
+    margin-top: 20px;
+    font-size: 15px;
+  }
+  .text {
+    display: flex;
+    flex-direction: column;
+    margin: 15px;
+  }
+  .user_img{
+    height: 100%;
+    bottom: 0;
+    right: 0;
+    width: 25%;
+    position: absolute;
+    border-radius: 0 25px 25px 0;
+  }
+  .profile_img {
+    height: 100%;
+    bottom: 0;
+    right: 0;
+    width: 25%;
+    position: absolute;
+    border-radius: 25px;
+  }
+  
+  .small_cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+.home{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

@@ -1,0 +1,63 @@
+.settings{
+    width:100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction : column;
+    justify-content: center;
+    align-items: center;
+}
+
+.settings .main_form {
+    width: 75vw;
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 50px 35px 50px 35px;
+    background: #1f1f1f;
+    border-radius: 25px;
+}
+
+.settings .btn1{
+    margin-top: 3vh;
+    width: 15vw !important;
+    padding : 15px !important;
+}
+
+.settings .buttons{
+    width: 35vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.settings .inputElement{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.settings input{
+    cursor: pointer;
+    width: 3vw;
+    height: 4vh;
+}
+
+.settings label{
+    font-family: GilroySemiBold !important;
+    font-style: normal;
+    font-weight: 600 !important;
+    font-size: 18px !important;
+    line-height: 28px !important;
+}
+
+.settings h1{
+    margin-bottom: 10px;
+    font-size: 2rem !important;
+}
+
+.settings p{
+    margin-bottom: 20px;
+    font-size: 1.2rem !important;
+}

@@ -1,0 +1,111 @@
+.signup_page {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .signup_page .left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 55vw;
+  }
+  
+  .signup_page .right {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 45vw;
+  }
+  
+  .signup_page .left img {
+    height: 100vh;
+    width: 55vw;
+    object-fit: cover;
+  }
+  
+  .signup_page .main_form {
+    width: 25vw;
+    height: 45%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 55px 40px 55px 40px;
+    background: #1f1f1f;
+    border-radius: 25px;
+  }
+  
+  .signup_page .btn1 {
+    font-size: 16px;
+    margin: 0 !important;
+    width: 100% !important;
+  }
+  
+  .signup_page .heading {
+    font-family: GilroySemiBold;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 29px;
+    /* identical to box height */
+  
+    text-align: center;
+    color: #ffffff;
+    margin: 0;
+  }
+  
+  .signup_page .para {
+    font-family: GilroyMedium;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 22px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.25px;
+    color: rgba(255, 255, 255, 0.7);
+    margin: 5px;
+  }
+  
+  .signup_page .bottom {
+    font-family: GilroySemiBold;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 28px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.75px;
+    color: rgba(255, 255, 255, 0.7);
+    margin: 0;
+    margin-top: 10px;
+  }
+  
+  .signup_page input {
+    width: 95% !important;
+  }
+  
+  .signup_page .tologin {
+    margin-left: 3px;
+    color: #864ff9;
+    cursor: pointer;
+  }
+  
+  .signup_page .form {
+    width: 100%;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+  
