@@ -17,7 +17,7 @@ function BugFix() {
             <div className="para">
                 Added Color Wheel Functionality
             </div>
-                <button className="btn timeline_btn">Download Zip File</button>
+                <button className="btn timeline_btn"><a href="https://drive.google.com/file/d/1_bofizcdY_erudtmwMMRaov5n88ZlIlk/view?usp=sharing " download>Download Zip File</a></button>
             <div className="para"></div>
             </div>
             <img alt="chart" className="chart" src={chart} />
@@ -28,7 +28,7 @@ function BugFix() {
             <div className="para">
                 Initial Installment
             </div>
-            <button className="btn timeline_btn">Download Zip File</button>
+            <button className="btn timeline_btn"><a href="https://drive.google.com/file/d/11aoOOFi5SSH9wOJzal2hpK_ujF2LjDgt/view?usp=sharing" download>Download Zip File</a></button>
             <div className="para"></div>
             </div>
             <img alt="chart" className="chart" src={chart} />

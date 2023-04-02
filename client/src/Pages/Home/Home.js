@@ -99,7 +99,7 @@ function Home() {
                     <div className="para">
                         Make your problems go away.
                     </div>
-                        <button className="btn timeline_btn">Download Zip File</button>
+                        <button className="btn timeline_btn"><a href="https://drive.google.com/file/d/1_bofizcdY_erudtmwMMRaov5n88ZlIlk/view?usp=sharing" download>Download Zip File</a></button>
                     <div className="para"></div>
                     </div>
                     <img alt="chart" className="chart" src={chart} />
