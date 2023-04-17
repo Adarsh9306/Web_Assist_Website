@@ -1,0 +1,36 @@
+<%- include('partials/lrheader') %>
+
+<div class="jumbotron centered">
+  <div class="container">
+    <h1>Hello Admin</h1>
+    <p>No of users using the definition feature : <%= countDefinition %></p>
+    <p>No of users using the Color Wheel feature : <%= countColor %></p>
+    <p>No of users using the Count Timer feature : <%= countTimer %></p>
+    <p>No of users using the Count Set Time feature : <%= countSetTime %></p>
+
+    <h3>All the Users are :</h3>
+    <div class="cards">
+      <% items.map((item)=>{ %>
+      <div class="cardAdmin">
+        <h4><%= item.name %> : (<%= item.roles %>)</h4>
+        <p>Definition : <%= item.definition %></p>
+        <p>ColorWheel : <%= item.colorWheel %></p>
+        <p>Timer : <%= item.timeSpent %></p>
+        <p>Set Time : <%= item.timeLimit %></p>
+      </div>
+      <% }) %>
+    </div>
+
+    <h3>Delete A User :</h3>
+
+    <form action="/deleteUser" method="POST">
+      <div class="form-group">
+        <label for="username">Name</label>
+        <input type="text" class="form-control" name="username" />
+      </div>
+      <button type="submit" class="btn btn-dark">Delete</button>
+    </form>
+  </div>
+</div>
+
+<%- include('partials/footer') %>
